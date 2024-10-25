@@ -1,0 +1,23 @@
+<t-navbar t-class-placeholder="t-navbar-placeholder" t-class-content="t-navbar-content" title="{{title}}">
+    <view slot="capsule" class="custom-capsule" wx:if="{{!isHome}}">
+        <t-icon
+                size="40rpx"
+                bind:tap="onBack"
+                aria-role="button"
+                aria-label="返回"
+                name="chevron-left"
+                class="custom-capsule__icon back"
+                bindtap="onBack"
+        />
+        <t-icon
+                size="40rpx"
+                bind:tap="onGoHome"
+                aria-role="button"
+                aria-label="首页"
+                name="home"
+                class="custom-capsule__icon home"
+                bindtap="onGoHome"
+        />
+    </view>
+</t-navbar>
+<ad unit-id="adunit-94c9cfacc4c9e075"></ad>

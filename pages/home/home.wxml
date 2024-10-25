@@ -1,0 +1,8 @@
+
+<c-nav/>
+<c-message id="message"/>
+<c-loading id="loading"/>
+
+
+<c-tabbar></c-tabbar>
+

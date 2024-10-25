@@ -1,0 +1,23 @@
+
+page {
+    background-color: #ebebeb !important;
+}
+.t-button--block{
+  width: 100% !important;
+}
+.pd20-10{
+    padding: 20rpx 10rpx !important;
+}
+.mb-20{
+    margin-bottom: 20rpx !important;
+}
+.button-bottom{
+  padding: 20rpx!important;
+  position: fixed;
+  bottom: env(safe-area-inset-bottom);
+  left: 0;
+  right: 0;
+}
+.auth-btn{
+  width: 40vw !important;
+}

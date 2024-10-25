@@ -1,0 +1,21 @@
+.btn{
+  padding: 20rpx;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 20rpx;
+}
+.imageBox{
+  width: 100%;
+  overflow: auto;
+  .image{
+   width: 100% !important;
+  }
+}
+.wrapper {
+  margin-bottom: 32rpx;
+}
+
+
+.dialog-input {
+  background-color: #f3f3f3 !important;
+}

@@ -1,0 +1,3 @@
+<view wx:if="{{show}}" class="loading">
+    <t-loading  theme="spinner" size="{{size}}" text="{{text}}" layout="vertical" class="wrapper" />
+</view>
